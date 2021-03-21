@@ -1,0 +1,12 @@
+{
+  "name": "wizelinesession2",
+  "version": "1.0.0",
+  "description": "backend postman automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx newman run ./YOUR_APP/tests/backend/collection/todoist.json -e ./YOUR_APP/tests/backend/envVariables/QA.json -r htmlextra --reporter-htmlextra-export ./YOUR_APP/tests/backend/reports/report.html",
+    "test-no-report": "npx newman run ./YOUR_APP/tests/backend/collection/todoist.json -e ./YOUR_APP/tests/backend/envVariables/QA.json"
+  },
+  "author": "Gladys Noh",
+  "license": "MIT"
+}
