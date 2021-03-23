@@ -8,5 +8,8 @@
     "test-no-report": "npx newman run ./YOUR_APP/tests/backend/collection/todoist.json -e ./YOUR_APP/tests/backend/envVariables/QA.json"
   },
   "author": "Gladys Noh",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "newman-reporter-htmlextra": "^1.20.1"
+  }
 }
