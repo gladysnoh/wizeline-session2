@@ -16,7 +16,7 @@ Project structure:
 
 `cd ./Project/WizelineSession2`
  
-3. After that you have to execute the npm install command in order to install the html-extra package (since it is a dependency in the project)
+3. After that you have to execute the **npm install** command in order to install the html-extra package (since it is a dependency in the project)
  
 4. The next step is to execute the npm task:
  
